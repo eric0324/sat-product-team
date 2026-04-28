@@ -36,6 +36,7 @@ jobs:
           cp -r images dist/images
           cp -r music  dist/music
           cp -r videos dist/videos
+          mv "dist/產品組開箱簡報.html" dist/index.html
 
       - uses: actions/configure-pages@v5
 
