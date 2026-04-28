@@ -1,0 +1,15 @@
+{
+  "name": "unboxing-deck",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot ./dev.ts",
+    "build": "bun build ./產品組開箱簡報.html --outdir=./dist"
+  },
+  "dependencies": {
+    "pangu": "^7.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
