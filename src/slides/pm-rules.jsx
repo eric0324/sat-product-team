@@ -12,10 +12,10 @@ export function SlidePmRules() {
       bearState="confused"
       accentColor="#ff2d95"
       flow={[
-        '各組派 5 位玩家排成一排',
+        '各組派 4 位玩家排成一排',
         '第 1 位到會議室聽主持人念「需求」',
-        '把需求傳給第 2、第 3、第 4、第 5 位',
-        '第 5 位把最終聽到的 spec 打出來'
+        '把需求傳給第 2、第 3、第 4 位',
+        '第 4 位把最終聽到的 spec 打出來'
       ]}
     />
   );
