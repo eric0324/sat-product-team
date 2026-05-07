@@ -8,7 +8,7 @@ export function SlideDesignerRules() {
       chapterTitle="設計師 線上作戰"
       subtitle="拿到 spec，然後呢？"
       people="2 人 / 組"
-      duration="5 分鐘"
+      duration="2 分鐘"
       bearState="crying"
       accentColor="#00ffea"
       flow={[
