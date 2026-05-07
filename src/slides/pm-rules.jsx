@@ -7,8 +7,8 @@ export function SlidePmRules() {
       chapterNum={1}
       chapterTitle="產品經理 傳話地獄"
       subtitle="需求從這裡進來 (很重要)"
-      people="5 人 / 組"
-      duration="10 分鐘"
+      people="4 人 / 組"
+      duration="5 分鐘"
       bearState="confused"
       accentColor="#ff2d95"
       flow={[
