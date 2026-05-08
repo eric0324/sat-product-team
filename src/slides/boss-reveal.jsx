@@ -42,7 +42,7 @@ export function SlideBossReveal() {
           RELEASE
         </h1>
         <div style={{ fontSize: 28, color: 'var(--warn-yellow)' }}>
-          ⚠ 警告：本關藏有 <span style={{ color: 'var(--blood-red)', fontWeight: 900 }}>2 個陷阱</span>，踩中倒扣 5 分
+          ⚠ 警告：本關藏有 <span style={{ color: 'var(--blood-red)', fontWeight: 900 }}>2 個陷阱</span>，踩中倒扣 2 分
         </div>
       </div>
 
@@ -125,19 +125,19 @@ export function SlideBossReveal() {
              style={{ border: '3px dashed var(--blood-red)', padding: 14, cursor: 'pointer', background: reveal.trap1 ? 'rgba(255,59,59,0.15)' : 'transparent' }}>
           <div className="mono red" style={{ fontSize: 20, letterSpacing: 3 }}>⚠ TRAP #1</div>
           <div style={{ fontSize: 22, color: '#fff', marginTop: 4 }}>
-            {reveal.trap1 ? '行銷組 J 同事：「熊的手要換黑色」— 善意的建議 ≠ 已核准的需求　−5' : '████████████████████████'}
+            {reveal.trap1 ? '行銷組 J 同事：「熊的手要換黑色」— 善意的建議 ≠ 已核准的需求　−2' : '████████████████████████'}
           </div>
         </div>
         <div onClick={() => setReveal(r => ({ ...r, trap2: !r.trap2 }))}
              style={{ border: '3px dashed var(--blood-red)', padding: 14, cursor: 'pointer', background: reveal.trap2 ? 'rgba(255,59,59,0.15)' : 'transparent' }}>
           <div className="mono red" style={{ fontSize: 20, letterSpacing: 3 }}>⚠ TRAP #2</div>
           <div style={{ fontSize: 22, color: '#fff', marginTop: 4 }}>
-            {reveal.trap2 ? '課程組 A 同事：「熊頭上要長一隻角」—「一下下就好」從來沒有一下下就好過　−5' : '████████████████████████'}
+            {reveal.trap2 ? '課程組 A 同事：「熊頭上要長一隻角」—「一下下就好」從來沒有一下下就好過　−2' : '████████████████████████'}
           </div>
         </div>
       </div>
 
-      <VhsFooter left="▶ SHIP IT" right="SCORING: +1 / -5" />
+      <VhsFooter left="▶ SHIP IT" right="SCORING: +1 / -2" />
     </section>
   );
 }

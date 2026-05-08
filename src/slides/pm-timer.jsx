@@ -8,6 +8,7 @@ export function SlidePmTimer() {
       chapterTitle="STAGE 1: 傳話地獄"
       hint="傾聽 → 複述 → 繼續 → 崩潰。 記得：需求是會變的。"
       accentColor="#ff2d95"
+      seconds={300}
     />
   );
 }

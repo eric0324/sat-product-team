@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { VhsHud, NoiseOverlay, VhsFooter } from '../components.jsx';
 
-const TOTAL_SEC = 180; // 3 分鐘
+const TOTAL_SEC = 120; // 2 分鐘
 
 export function SlideBackendTimer() {
   const [remaining, setRemaining] = useState(TOTAL_SEC);
