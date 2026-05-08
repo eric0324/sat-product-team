@@ -3,10 +3,10 @@ import { PixelBear } from '../bear.jsx';
 import { VhsHud, NoiseOverlay, VhsFooter } from '../components.jsx';
 
 const DELIVERABLES = [
-  { icon: '🎨', title: 'Wireframe / Mockup', desc: '從骨架到最終視覺，每個段落都得給 PM / 老闆看過（不只看過，是吵過）' },
-  { icon: '🎭', title: 'Design System 設計系統', desc: '維護一整套元件/色票/字級規範，讓整個產品長得像同一間公司做的' },
+  { icon: '🎨', title: 'Wireframe / Mockup', desc: '從骨架到最終視覺，每個段落都得給 PM (不只看過，是吵過)' },
+  { icon: '🔍', title: 'UI 稿', desc: '回答「這個使用者真的看得懂嗎」這個靈魂提問' },
   { icon: '🖼️', title: 'Prototype 原型', desc: '可以點擊的互動稿，讓大家在開工前就能感受流程' },
-  { icon: '🔍', title: 'Usability 易用性', desc: '回答「這個使用者真的看得懂嗎」這個靈魂提問' },
+  { icon: '🎭', title: 'Design System 設計系統', desc: '維護一整套元件 / 色票 / 字級規範，讓整個產品長得像同一間公司做的' },
 ];
 
 export function SlideDesignerDuties() {
