@@ -5,12 +5,10 @@ import { VhsHud, NoiseOverlay, VhsFooter } from '../components.jsx';
 const ACTIVITIES = [
   '看 PM 丟的 spec，看三次才看懂',
   '畫 wireframe',
-  '畫 mockup',
-  '改 mockup（老闆覺得不夠活潑）',
-  '再改 mockup（PM 又改需求）',
+  '畫 UI 稿',
+  '做 prototype',
   '跟工程師爭 spacing 8px vs 10px',
-  '對齊設計系統（順便想要不要改它）',
-  '找 reference，找到懷疑人生',
+  '建立與維護設計系統',
 ];
 
 export function SlideDesignerDaily() {
